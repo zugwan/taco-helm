@@ -25,7 +25,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           charts_dir: .
           charts_url:  https://zugwan.github.io/hanu-helm-repo
-          owner: openinfradev
+          owner: zugwan
           repository: hanu-helm-repo
           branch: main
           linting: off
