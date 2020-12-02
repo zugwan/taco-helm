@@ -22,7 +22,7 @@ jobs:
       - name: Publish Helm chart
         uses: stefanprodan/helm-gh-pages@master
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.ZUGWAN }}
           charts_dir: .
           charts_url:  https://zugwan.github.io/hanu-helm-repo
           owner: zugwan
