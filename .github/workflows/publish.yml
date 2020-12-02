@@ -28,4 +28,4 @@ jobs:
           owner: openinfradev
           repository: hanu-helm-repo
           branch: main
-          linting: false
+          linting: off
