@@ -29,3 +29,4 @@ jobs:
           repository: hanu-helm-repo
           branch: main
           linting: off
+          commit_username: hanu
